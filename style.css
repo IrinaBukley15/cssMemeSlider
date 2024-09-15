@@ -128,3 +128,44 @@ input[name="radio"] {
 #fourth:checked ~ .slider .slider-block .slide-show {
     margin-left: -75%;
 }
+
+@media(max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+    .slider-wrapper {
+        width: 80%;
+    }
+    .dot {
+        width: 0.2rem;
+        height: 0.2rem;
+        border: 2px solid #a3a0aa;
+    }
+    .labels {
+        width: 100%;
+        justify-content: center;
+    }
+    .description {
+        width: 100%;
+        text-align: center;
+    }
+
+}
+@media(max-width: 420px) {
+    html {
+        font-size: 12px;
+    }
+    .slider-wrapper {
+        width: 90%;
+    }
+    .dot {
+        width: 0.15rem;
+        height: 0.15rem;
+        border: 1px solid #a3a0aa;
+    }
+    .labels {
+        width: 50%;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+}        
