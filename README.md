@@ -1,3 +1,3 @@
 # cssMemeSlider
 
-https://irinabukley15.github.io/cssMemSlider/
+https://irinabukley15.github.io/cssMemeSlider/
