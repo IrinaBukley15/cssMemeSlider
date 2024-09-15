@@ -88,7 +88,43 @@ label:hover .dot {
     background-color: #ffffff;
     border-color: #ffffff;
 }
+label:active .dot {
+    background-color: #d0f041;
+    border-color: #d0f041;
+}
+label:focus .dot {
+    background-color: #73f7e1;
+    border-color: #73f7e1;
+}
 
 input[name="radio"] {
     display: none;
+}
+
+
+#first:checked ~ .labels label .dot1,
+#second:checked ~ .labels label .dot2,
+#third:checked ~ .labels label .dot3,
+#fourth:checked ~ .labels label .dot4 {
+    background-color: #51df3f;
+}
+
+#first:checked ~ .description .descr-block .descr-show,
+#first:checked ~ .slider .slider-block .slide-show  {
+    margin-left: 0%;
+}
+
+#second:checked ~ .description .descr-block .descr-show,
+#second:checked ~ .slider .slider-block .slide-show {
+    margin-left: -25%;
+}
+
+#third:checked ~ .description .descr-block .descr-show,
+#third:checked ~ .slider .slider-block .slide-show {
+    margin-left: -50%;
+}
+
+#fourth:checked ~ .description .descr-block .descr-show,
+#fourth:checked ~ .slider .slider-block .slide-show {
+    margin-left: -75%;
 }
